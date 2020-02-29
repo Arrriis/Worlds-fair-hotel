@@ -1,0 +1,164 @@
+body {
+    background-image: url(img/boats.jpg);
+    background-size: cover;
+
+}
+
+#reservationCard1 {
+    border: white;
+    border-width: thick;
+    padding: 20px;
+    width: 600px;
+    font-size: 20px;
+    font-family: cursive;
+    text-align: center;
+    margin-right: 30px;
+    
+}
+
+#reservationCard2 {
+    border: white;
+    border-width: thick;
+    padding: 20px;
+    width: 600px;
+    font-size: 20px;
+    font-family: cursive;
+    text-align: center;
+    margin-left: 150px;
+    margin-right: 30px;
+
+}
+
+#reservationCard3 {
+    border: white;
+    border-width: thick;
+    padding: 20px;
+    width: 600px;
+    font-size: 20px;
+    font-family: cursive;
+    text-align: center;
+    margin-left: 300px;
+
+}
+
+h1 {
+ font-size: 90pt;
+ font-family: cursive;
+ color:whitesmoke;
+ margin-bottom: 60px;
+ 
+}
+
+#firstContainer {
+    width: 100%;
+    padding-left: 0px;
+    margin-right: 0px;
+    margin-left: 0px;
+    height: auto;
+
+}
+.navbar {
+    color: black;
+    width: 100%;
+    float: left;
+    margin: 0;
+    padding: 0;
+
+
+}
+
+#navbarResponsive a {
+    color: black;
+    text-align: center;
+    font-size: 16px;
+    font-weight: 500;
+
+
+}
+
+.background {
+    background-image: url(img/boats.jpg);
+    height: 100%;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+li {
+    border-right: 1px solid rgb(15, 170, 149);
+  }
+  
+li:last-child {
+    border-right: none;
+  }
+
+  li a:hover {
+    background-color: teal;
+  }
+
+  label {
+    color: black;
+    text-shadow: burlywood;
+    padding: 20px;
+    font-size: 16px;
+    font-weight: 500;
+
+}
+
+#date {
+    margin: 15px;
+}
+
+#guests {
+    margin: 15px;
+}
+
+#rooms {
+    margin: 15px;
+    margin-left: 30px;
+    
+}
+
+#reserveButton {
+    position: relative;
+    margin-left: 30%;
+    margin-top: 60px;
+    
+}
+
+.carousel-item{position: relative;}
+
+
+.carousel {
+    padding: 20px;
+    width: 100%;
+    height: auto;
+    border: teal;
+    border-style: solid;
+    border-width: thick;
+    
+}     
+
+.carousel-caption {
+    background-color: white;
+    opacity: inherit;
+    
+
+}
+
+#carouselButton {
+    position: absolute;
+    right: 0;
+    bottom: 0
+
+}
+
+footer {
+    background-color: white;
+}
+
+footer a {
+    color: black;
+    font-size: 16pt;
+}
+
